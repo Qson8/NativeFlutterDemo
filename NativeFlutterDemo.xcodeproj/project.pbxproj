@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECBF6B9D226AB81C00C48B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6B9C226AB81C00C48B31 /* AppDelegate.m */; };
-		ECBF6BA0226AB81C00C48B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6B9F226AB81C00C48B31 /* ViewController.m */; };
-		ECBF6BA3226AB81C00C48B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBF6BA1226AB81C00C48B31 /* Main.storyboard */; };
-		ECBF6BA5226AB81D00C48B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBF6BA4226AB81D00C48B31 /* Assets.xcassets */; };
-		ECBF6BA8226AB81D00C48B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBF6BA6226AB81D00C48B31 /* LaunchScreen.storyboard */; };
-		ECBF6BAB226AB81D00C48B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6BAA226AB81D00C48B31 /* main.m */; };
 		ECBF6BB5226AB81D00C48B31 /* NativeFlutterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6BB4226AB81D00C48B31 /* NativeFlutterDemoTests.m */; };
 		ECBF6BC0226AB81D00C48B31 /* NativeFlutterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6BBF226AB81D00C48B31 /* NativeFlutterDemoUITests.m */; };
+		ECBF6BD9226ABDFB00C48B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBF6BCF226ABDFB00C48B31 /* Assets.xcassets */; };
+		ECBF6BDA226ABDFB00C48B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6BD0226ABDFB00C48B31 /* ViewController.m */; };
+		ECBF6BDD226ABDFB00C48B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6BD5226ABDFB00C48B31 /* main.m */; };
+		ECBF6BDE226ABDFB00C48B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6BD6226ABDFB00C48B31 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +34,19 @@
 
 /* Begin PBXFileReference section */
 		ECBF6B98226AB81C00C48B31 /* NativeFlutterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeFlutterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECBF6B9B226AB81C00C48B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ECBF6B9C226AB81C00C48B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECBF6B9E226AB81C00C48B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECBF6B9F226AB81C00C48B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ECBF6BA2226AB81C00C48B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECBF6BA4226AB81D00C48B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECBF6BA7226AB81D00C48B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ECBF6BA9226AB81D00C48B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECBF6BAA226AB81D00C48B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECBF6BB0226AB81D00C48B31 /* NativeFlutterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeFlutterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBF6BB4226AB81D00C48B31 /* NativeFlutterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeFlutterDemoTests.m; sourceTree = "<group>"; };
 		ECBF6BB6226AB81D00C48B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECBF6BBB226AB81D00C48B31 /* NativeFlutterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeFlutterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBF6BBF226AB81D00C48B31 /* NativeFlutterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeFlutterDemoUITests.m; sourceTree = "<group>"; };
 		ECBF6BC1226AB81D00C48B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBF6BCE226ABDFB00C48B31 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECBF6BCF226ABDFB00C48B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBF6BD0226ABDFB00C48B31 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECBF6BD5226ABDFB00C48B31 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECBF6BD6226ABDFB00C48B31 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECBF6BD7226ABDFB00C48B31 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBF6BD8226ABDFB00C48B31 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +97,7 @@
 		ECBF6B9A226AB81C00C48B31 /* NativeFlutterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ECBF6B9B226AB81C00C48B31 /* AppDelegate.h */,
-				ECBF6B9C226AB81C00C48B31 /* AppDelegate.m */,
-				ECBF6B9E226AB81C00C48B31 /* ViewController.h */,
-				ECBF6B9F226AB81C00C48B31 /* ViewController.m */,
-				ECBF6BA1226AB81C00C48B31 /* Main.storyboard */,
-				ECBF6BA4226AB81D00C48B31 /* Assets.xcassets */,
-				ECBF6BA6226AB81D00C48B31 /* LaunchScreen.storyboard */,
-				ECBF6BA9226AB81D00C48B31 /* Info.plist */,
-				ECBF6BAA226AB81D00C48B31 /* main.m */,
+				ECBF6BCD226ABDFB00C48B31 /* Demo */,
 			);
 			path = NativeFlutterDemo;
 			sourceTree = "<group>";
@@ -130,6 +118,20 @@
 				ECBF6BC1226AB81D00C48B31 /* Info.plist */,
 			);
 			path = NativeFlutterDemoUITests;
+			sourceTree = "<group>";
+		};
+		ECBF6BCD226ABDFB00C48B31 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ECBF6BD8226ABDFB00C48B31 /* ViewController.h */,
+				ECBF6BD0226ABDFB00C48B31 /* ViewController.m */,
+				ECBF6BCE226ABDFB00C48B31 /* AppDelegate.h */,
+				ECBF6BD6226ABDFB00C48B31 /* AppDelegate.m */,
+				ECBF6BCF226ABDFB00C48B31 /* Assets.xcassets */,
+				ECBF6BD5226ABDFB00C48B31 /* main.m */,
+				ECBF6BD7226ABDFB00C48B31 /* Info.plist */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECBF6BA8226AB81D00C48B31 /* LaunchScreen.storyboard in Resources */,
-				ECBF6BA5226AB81D00C48B31 /* Assets.xcassets in Resources */,
-				ECBF6BA3226AB81C00C48B31 /* Main.storyboard in Resources */,
+				ECBF6BD9226ABDFB00C48B31 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECBF6BA0226AB81C00C48B31 /* ViewController.m in Sources */,
-				ECBF6BAB226AB81D00C48B31 /* main.m in Sources */,
-				ECBF6B9D226AB81C00C48B31 /* AppDelegate.m in Sources */,
+				ECBF6BDD226ABDFB00C48B31 /* main.m in Sources */,
+				ECBF6BDA226ABDFB00C48B31 /* ViewController.m in Sources */,
+				ECBF6BDE226ABDFB00C48B31 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +298,6 @@
 			targetProxy = ECBF6BBC226AB81D00C48B31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ECBF6BA1226AB81C00C48B31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECBF6BA2226AB81C00C48B31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ECBF6BA6226AB81D00C48B31 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECBF6BA7226AB81D00C48B31 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ECBF6BC2226AB81D00C48B31 /* Debug */ = {
@@ -437,14 +418,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62AXVHYTF7;
-				INFOPLIST_FILE = NativeFlutterDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NativeFlutterDemo/Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Qson.NativeFlutterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,14 +436,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62AXVHYTF7;
-				INFOPLIST_FILE = NativeFlutterDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NativeFlutterDemo/Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Qson.NativeFlutterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
