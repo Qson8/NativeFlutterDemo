@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FlutterModule.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -60,6 +61,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
+    [[FlutterModule shared] jumpFlutterPage:self];
 }
 
 @end

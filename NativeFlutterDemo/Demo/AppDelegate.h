@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DemoRouter.h"
+#import  <flutter_boost/FlutterBoost.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : FLBFlutterAppDelegate <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, strong) DemoRouter *router;
 
 @end
 

@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <Flutter/Flutter.h>
+#import "FlutterModule.h"
+#import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
+
 
 @interface AppDelegate ()
 
@@ -18,14 +22,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+   
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = vc;
+    self.window.rootViewController = nvc;
     [self.window makeKeyAndVisible];
     
-    return YES;
+    [GeneratedPluginRegistrant registerWithRegistry:self];
+    /// 初始化FlutterBoost
+    [[FlutterModule shared] setup];
+
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 @end
