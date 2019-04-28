@@ -43,8 +43,9 @@
 #pragma mark - NativefetchPluginDelegate
 - (void)nativefetchPluginWithMethodCall:(FlutterMethodCall *)call result:(FlutterResult)result {
     
+    // 响应flutter发过来的消息
     UIViewController *vc = [[UIViewController alloc] init];
-    vc.view.backgroundColor = [UIColor redColor];
+    vc.view.backgroundColor = [UIColor blueColor];
     [FlutterBoostPlugin.sharedInstance.currentViewController.navigationController pushViewController:vc animated:YES];
 }
 
